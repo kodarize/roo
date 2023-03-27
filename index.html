@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Roo Home</button>
+<button class="tablink" onclick="openPage('Books', this, 'green')" id="Open2">Books</button>
+<button class="tablink" onclick="openPage('Media', this, 'blue')" id="Open3">Media</button>
+<button class="tablink" onclick="openPage('Archives', this, 'orange')" id="Open4">Archives</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Welcome To Roo</h3>
+  <p>The official storage pouch of Kodair</p>
+</div>
+
+<div id="Books" class="tabcontent">
+  <a href="Books/Resurrectionist/Resurrectionist.pdf">
+      <img src="Books/Resurrectionist/Resurrectionist.jpg" alt="The Resurrectionist The Lost Work of Dr. Spencer Black by E. B. Hudspeth" style="width:30%">
+  </a>
+</div>
+
+<div id="Media" class="tabcontent">
+  <h3>Media</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="Archives" class="tabcontent">
+  <h3>Archives</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<script src="index.js"></script>
+   
+</body>
+</html> 
